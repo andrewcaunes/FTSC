@@ -80,9 +80,9 @@ def classes_to_superclasses(args):
         else:
             logging.info('class %s not found in c2sc',label)
 
-def classes_to_folder(args):
+def classes_tree_to_images(args):
     """must provide : 
-    - args.depth = depth at which class foldres are in the tree, 
+    - args.depth = depth at which class folders are in the tree, 
     - args.superclasses-tree : superclasses dir
     - args.dir : dir containing the classes folders
     - args.new_dir : destination folder"""
@@ -143,7 +143,7 @@ def superclasses_to_classes(args):
     logging.info('Copied %s files',count)
 
 
-def classes_to_fulldataset(args):
+def classes_tree_to_images(args):
     if not os.path.exists(args.new_dir):
         os.makedirs(args.new_dir)
     classes_tree_path = os.path.join(args.new_dir, "images_classes-tree")
@@ -170,11 +170,11 @@ def classes_to_fulldataset(args):
     args_c2f = copy.deepcopy(args)
     args_c2f.dir = classes_tree_path
     args_c2f.new_dir = images_path
-    classes_to_folder(args_c2f)
+    classes_tree_to_images(args_c2f)
 
 def images_to_classes_tree(args):
     """From a dir with images with names of the format 'category-superclass-class_id.jpg', 
-    copy the images in new_dir with the same structure as the superclasses"""
+    copy the images in new_dir structured by the classes"""
     assert args.dir is not None, "must provide a dir"
     assert args.new_dir is not None, "must provide a new_dir"
     if not os.path.exists(args.new_dir):
@@ -230,8 +230,8 @@ if __name__ == "__main__":
         "get-superclasses-classes-dicts" \
         "classes-to-superclasses" \
         "superclasses-to-classes" \
-        "classes_to_folder" \
-        "classes_to_fulldataset" \
+        "classes_tree_to_images" \
+        "classes_tree_to_images" \
         "import_dataset_to_classes" \
         "images_to_classes_tree" \
         "images_to_superclasses_tree" \
@@ -267,11 +267,11 @@ if __name__ == "__main__":
     elif args.script == "count-tree-files":
         count_tree_files(args)
     
-    elif args.script == "classes_to_folder":
-        classes_to_folder(args)
+    elif args.script == "classes_tree_to_images":
+        classes_tree_to_images(args)
     
-    elif args.script == "classes_to_fulldataset":
-        classes_to_fulldataset(args)
+    elif args.script == "classes_tree_to_images":
+        classes_tree_to_images(args)
     
     elif args.script == "import_dataset_to_classes":
         import_dataset_to_classes(args)
