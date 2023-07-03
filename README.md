@@ -42,7 +42,7 @@ This project is released under the [Apache 2.0 license](http://www.apache.org/li
 # Institutions
 
 <p align="center">
-  <img width="300" src="docs/images/logiroad_logo.jpg">
-  <img width="300" src="docs/images/uca_logo.png">
-  <img width="300" src="docs/images/centrale_logo.jpg">
+  <img width="200" src="docs/images/logiroad_logo.jpg">
+  <img width="200" src="docs/images/uca_logo.png">
+  <img width="200" src="docs/images/centrale_logo.jpg">
 </p>
