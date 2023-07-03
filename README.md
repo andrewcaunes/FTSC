@@ -1,5 +1,6 @@
 ## FTSC
 The official French Traffic Sign Classification dataset.
+![Samples from the FTSC dataset.](./12_2.png)
 
 # Description
 This dataset contains 2D pictures of french traffic signs with accurate labels from the french traffic sign catalogue. It has been gathered for the most part in the city of Antony, France, in various weathers and at daytime. The dataset may be update later with new content.
