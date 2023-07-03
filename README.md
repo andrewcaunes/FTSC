@@ -1,7 +1,9 @@
 ## FTSC
 The official French Traffic Sign Classification dataset.
 
-<img src="./12_2.png" width="500">
+<p align="center">
+  <img width="400" src="docs/images/12_2.png">
+</p>
 
 # Description
 This dataset contains 2D pictures of french traffic signs with accurate labels from the french traffic sign catalogue. It has been gathered for the most part in the city of Antony, France, in various weathers and at daytime. The dataset may be update later with new content.
@@ -32,3 +34,15 @@ New classes that we added :
 
 The dataset can be downloaded directly.
 We provide python scripts to easily manipulate the data, including to go from and to our category, superclasses and classes system to raw images depending on your use case, as well as to convert the labels to another dataset format (ETSD format at the moment).
+
+# LICENSE
+
+This project is released under the [Apache 2.0 license](http://www.apache.org/licenses).
+
+# Institutions
+
+<p align="center">
+  <img width="300" src="docs/images/logiroad_logo.jpg">
+  <img width="300" src="docs/images/uca_logo.png">
+  <img width="300" src="docs/images/centrale_logo.jpg">
+</p>
