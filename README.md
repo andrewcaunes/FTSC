@@ -43,6 +43,14 @@ This project is released under the [Apache 2.0 license](http://www.apache.org/li
 
 <p align="center">
   <img width="200" style="margin:0px 100px" src="docs/images/logiroad_logo.jpg">
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  <img width="200" style="margin:0px 100px" src="docs/images/uca_logo.png">
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  <img width="200" style="margin:0px 100px" src="docs/images/centrale_logo.jpg">
+</p>
+<p align="center">
+  
+  <img width="200" style="margin:0px 100px" src="docs/images/logiroad_logo.jpg">
   <img width="200" style="margin:0px 100px" src="docs/images/uca_logo.png">
   <img width="200" style="margin:0px 100px" src="docs/images/centrale_logo.jpg">
 </p>
