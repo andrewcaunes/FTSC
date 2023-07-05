@@ -37,7 +37,7 @@ We provide python scripts to easily manipulate the data, including to go from an
 
 # LICENSE
 
-This project is released under the [Apache 2.0 license](http://www.apache.org/licenses).
+This project is released under the [Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)]([http://www.apache.org/licenses](https://creativecommons.org/licenses/by-nc/4.0/)).
 
 # Institutions
 
